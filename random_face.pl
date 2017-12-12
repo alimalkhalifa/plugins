@@ -17,7 +17,7 @@ sub RandomFace {
 			$Gender = $Mob->GetGender();
 			
 			$Face = 0xFF;
-			$Face = plugin::RandomRange(0, 6);
+			$Face = plugin::RandomRange(0, 7);
 			
 			$Mob->SendIllusion($MobRace,$Gender,$Texture,$HelmTexture,$Face,0,0,0,0,0,0,0); # ,$size
 		}

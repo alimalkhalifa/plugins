@@ -1,6 +1,7 @@
 #::: Author: Proxeeus, based on Trevius awesome plugin.
 #::: Usage: plugin::RandomFace(Mob);
-#::: Description: Chooses a random face for a mob.
+#::: Description: Chooses a random face for a mob. We're in a classic -> velious timeline only, so the only features that matter are
+#::: the face, texture, and helm texture of the npc.
 
 sub RandomFace {
 	my $Mob = $_[0];
